@@ -8,7 +8,7 @@ import os
 
 # Initialize RACECAR
 rc = racecar_core.create_racecar()
-LOGFILE = "test2.csv"
+LOGFILE = "Bingjiang.csv"
 df = pd.DataFrame(columns=["ts", "lidar", "imu_acc", "imu_angle", "speed", "angle"])
 tcounter = 0
 itcounter = 0
